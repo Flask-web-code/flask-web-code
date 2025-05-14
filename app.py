@@ -53,7 +53,8 @@ def contact():
 
 
 @app.route('/thank-you')
-def thank_you():
+def thankyou():
+
     # Make sure the file name matches exactly
     return render_template('thank-you.html')
 

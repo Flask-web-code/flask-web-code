@@ -19,8 +19,7 @@
 <body>
     <div class="container">
         <h1 class="text-center mt-2 mb-4">Welcome to Paranoid career</h1>
-        <img src="{{'http://127.0.0.1:5000/static/photo.jpg'}}" alt="Photo" class="d-block mx-auto img-fluid"
-            style="width: 100%; height: 300px;">
+        <img src="{{ url_for('static', filename='Hope.jpg') }}" alt="Hope Image" style="width: 100%; height: 300px;">
         <h2 class="text-center">About Paranoid</h2>
         <p class="lead">
             Welcome to our website! This platform was created to provide you with easy access to information about our

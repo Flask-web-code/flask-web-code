@@ -6,13 +6,12 @@ body {
     text-align: center;
 
 }
-    
+
 
 h1 {
     color: rgb(100, 100, 100)
-     
-
 }
+
 #photo {
     width: 300%;
     height: 300px;
@@ -30,7 +29,8 @@ h2 {
     color: rgb(100, 100, 100);
     text-align: center;
 }
+
 #container {
     max-width: 720px;
-    margin:0 auto 0 auto;
+    margin: 0 auto 0 auto;
 }
